@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Estructuras en Movimiento · FemCoders Club × InfoJobs</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-brand">
+    <img src="./images/3.png" alt="" width="50px">
+    <img src="./images/4.png" alt="" width="50px">
+  </a>
+  <div class="nav-center">
+    <a href="#ponentes" data-i18n="nav_speakers">Ponentes</a>
+    <a href="#agenda" data-i18n="nav_agenda">Agenda</a>
+    <a href="#sobre" data-i18n="nav_about">Sobre el evento</a>
+    <a href="https://www.eventbrite.com" target="_blank" rel="noopener" class="nav-cta-link" data-i18n="nav_register">Registrarse</a>
+  </div>
+  <div class="nav-right">
+    <div class="lang-switcher">
+      <button class="lang-btn active" onclick="setLang('es')">ES</button>
+      <button class="lang-btn" onclick="setLang('ca')">CA</button>
+      <button class="lang-btn" onclick="setLang('en')">EN</button>
+    </div>
+    <button class="theme-toggle" id="themeBtn" onclick="toggleTheme()" title="Cambiar tema">🌙</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <div class="hero-badge"><div class="dot"></div><span data-i18n="hero_badge">8 de Marzo · Día Internacional de la Mujer</span></div>
+  <h1 class="hero-tag">
+    <span class="line-white" data-i18n="hero_t1">Estructuras en</span><br/>
+    <span class="line-gradient" data-i18n="hero_t2">movimiento:</span><br/>
+    <span class="line-white hero-t3" data-i18n="hero_t3">mujeres que transforman el futuro</span>
+  </h1>
+  <p class="hero-subtitle" data-i18n="hero_sub">Una tarde de inspiración, comunidad y conversaciones que importan.</p>
+
+  <div class="hero-meta">
+    <div class="meta-pill">
+      <div class="meta-icon">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      </div>
+      <div class="meta-text">
+        <span class="meta-label" data-i18n="meta_date_label">Fecha</span>
+        <strong class="meta-value" data-i18n="meta_date">Jueves 6 de Marzo, 2026</strong>
+      </div>
+    </div>
+    <div class="meta-pill">
+      <div class="meta-icon">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      </div>
+      <div class="meta-text">
+        <span class="meta-label" data-i18n="meta_doors">Puertas abiertas a las:</span>
+        <strong class="meta-value">18:00h</strong>
+      </div>
+    </div>
+    <div class="meta-pill">
+      <div class="meta-icon">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      </div>
+      <div class="meta-text">
+        <span class="meta-label">InfoJobs · Sant Martí</span>
+        <strong class="meta-value">C/ Ciutat de Granada, 150</strong>
+      </div>
+    </div>
+  </div>
+  <a href="https://www.eventbrite.com" target="_blank" rel="noopener" class="cta-btn" data-i18n="hero_cta">Reserva tu plaza</a>
+</section>
+
+<!-- SPEAKERS -->
+<section id="ponentes">
+  <div class="container">
+    <p class="section-label reveal" data-i18n="sp_label">Ponentes</p>
+    <h2 class="section-title reveal"><span data-i18n="sp_title">Las voces que </span><em data-i18n="sp_em">inspiran</em></h2>
+    <p class="section-desc reveal" data-i18n="sp_desc">Cuatro mujeres referentes que comparten sus experiencias, aprendizajes y visión de un futuro más equitativo.</p>
+    <div class="speakers-grid">
+      <div class="speaker-card reveal">
+        <div class="speaker-img-wrap">
+          <img src="./images/1.png" alt="">
+        </div>
+        <div class="speaker-info">
+          <p class="speaker-company">InfoJobs</p>
+          <h3 class="speaker-name">Irene Amo</h3>
+          <p class="speaker-role">Senior Product Manager</p>
+          <p class="speaker-bio" data-i18n="irene_bio">De Traducción Jurada a lanzar la marca de Atrápalo en varios países, hasta Product Manager internacional en fintech, insurtech y SaaS. Hoy, en InfoJobs, combate activamente los sesgos de género en las ofertas de empleo para que el talento no tenga etiquetas.</p>
+          <span class="speaker-tag">#DEI #ProductManagement</span>
+        </div>
+      </div>
+      <div class="speaker-card reveal">
+        <div class="speaker-img-wrap">
+          <img src="./images/2.png" alt="">
+        </div>
+        <div class="speaker-info">
+          <p class="speaker-company">Coboi Lab · Sant Boi</p>
+          <h3 class="speaker-name">Marta Gimeno</h3>
+          <p class="speaker-role" data-i18n="marta_role">Coordinadora de proyectos, espacios y relaciones</p>
+          <p class="speaker-bio" data-i18n="marta_bio">Cerró su startup en 2022 tras 10 años, 25 inversores, 19 países y casi 3M de usuarios. Tardó en reencontrar su ikigai pero su ADN era claro: mujer, madre, emprendedora y líder apasionada por transformar ideas en proyectos con propósito e impacto social.</p>
+          <span class="speaker-tag">#ImpactoSocial #Emprendimiento</span>
+        </div>
+      </div>
+      <div class="speaker-card reveal">
+        <div class="speaker-img-wrap"><div class="initials">SG</div></div>
+        <div class="speaker-info">
+          <p class="speaker-company" data-i18n="soon">Próximamente</p>
+          <h3 class="speaker-name">Sheila Guirado</h3>
+          <p class="speaker-role" data-i18n="role_ph">Cargo · Empresa</p>
+          <p class="speaker-bio speaker-bio--placeholder" data-i18n="ph_bio">Descripción de la ponente próximamente.</p>
+          <span class="speaker-tag speaker-tag--placeholder" data-i18n="tba">#PorAnunciar</span>
+        </div>
+      </div>
+      <div class="speaker-card placeholder reveal">
+        <div class="speaker-img-wrap"><div class="initials">?</div></div>
+        <div class="speaker-info">
+          <p class="speaker-company" data-i18n="soon">Próximamente</p>
+          <h3 class="speaker-name" data-i18n="tba_name">Por anunciar</h3>
+          <p class="speaker-role" data-i18n="role_ph">Cargo · Empresa</p>
+          <p class="speaker-bio speaker-bio--placeholder" data-i18n="ph_bio">Descripción de la ponente próximamente.</p>
+          <span class="speaker-tag speaker-tag--placeholder" data-i18n="tba">#PorAnunciar</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ABOUT -->
+<section id="sobre" class="about-section">
+  <div class="container">
+    <div class="about-grid">
+      <div>
+        <p class="section-label reveal" data-i18n="ab_label">¿Por qué este evento?</p>
+        <h2 class="section-title reveal"><span data-i18n="ab_title">Transformar estructuras, </span><em data-i18n="ab_em">juntas</em></h2>
+        <div class="pillar-list">
+          <div class="pillar reveal"><div><h4 data-i18n="p1h">Conocimiento real</h4><p data-i18n="p1p">Experiencias sin filtros de mujeres que han roto estructuras en sus sectores.</p></div></div>
+          <div class="pillar reveal"><div><h4 data-i18n="p2h">Comunidad diversa</h4><p data-i18n="p2p">Tecnología, innovación social y emprendimiento bajo el mismo techo.</p></div></div>
+          <div class="pillar reveal"><div><h4 data-i18n="p3h">Networking con propósito</h4><p data-i18n="p3p">Conecta con personas que comparten valores de equidad e impacto.</p></div></div>
+          <div class="pillar reveal"><div><h4 data-i18n="p4h">Acción, no solo inspiración</h4><p data-i18n="p4p">Nos llevamos ideas concretas para transformar nuestros entornos.</p></div></div>
+        </div>
+      </div>
+      <div class="about-visual reveal">
+        <div class="av-circle av-c1"></div>
+        <div class="av-circle av-c2"></div>
+        <div class="av-circle av-c3"></div>
+        <div class="av-center"><span>✦</span>8 MAR<br/>2026</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- AGENDA -->
+<section id="agenda">
+  <div class="container">
+    <p class="section-label reveal" data-i18n="ag_label">Agenda</p>
+    <h2 class="section-title reveal"><span data-i18n="ag_title">Una tarde </span><em data-i18n="ag_em">para recordar</em></h2>
+    <div class="schedule-timeline">
+      <div class="sched-item reveal"><div class="sched-time">18:30</div><div class="sched-content"><h4 data-i18n="s1h">Puertas abiertas y bienvenida</h4><p data-i18n="s1p">Registro, networking informal y un café antes de empezar.</p></div></div>
+      <div class="sched-item reveal"><div class="sched-time">19:00</div><div class="sched-content"><h4 data-i18n="s2h">Introducción · FemCoders Club & InfoJobs</h4><p data-i18n="s2p">Contexto del evento y presentación de las organizadoras.</p></div></div>
+      <div class="sched-item reveal"><div class="sched-time">19:15</div><div class="sched-content"><h4 data-i18n="s3h">Charla · Irene Amo</h4><p data-i18n="s3p">Producto, diversidad y el reto de eliminar sesgos en el mercado laboral digital.</p></div></div>
+      <div class="sched-item reveal"><div class="sched-time">19:40</div><div class="sched-content"><h4 data-i18n="s4h">Charla · Marta Gimeno</h4><p data-i18n="s4p">10 años, 3M de usuarios, un cierre y una nueva identidad: el camino hacia el ikigai.</p></div></div>
+      <div class="sched-item reveal"><div class="sched-time">20:05</div><div class="sched-content"><h4 data-i18n="s5h">Charlas · Sheila Guirado & Ponente por confirmar</h4><p data-i18n="s5p">Próximamente anunciaremos más detalles.</p></div></div>
+      <div class="sched-item reveal"><div class="sched-time">20:45</div><div class="sched-content"><h4 data-i18n="s6h">Mesa redonda y preguntas</h4><p data-i18n="s6p">Debate abierto con todas las ponentes. Tú también tienes voz.</p></div></div>
+      <div class="sched-item reveal"><div class="sched-time">21:15</div><div class="sched-content"><h4 data-i18n="s7h">Networking & cierre</h4><p data-i18n="s7p">La conversación continúa. Ven con tus tarjetas.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- PARTNERS -->
+<section id="organiza">
+  <div class="container">
+    <p class="section-label reveal section-label--center" data-i18n="pt_label">Organizan</p>
+    <div class="orgs-grid reveal">
+      <div class="org-card">
+        <a href="https://www.infojobs.net" target="_blank" rel="noopener" class="org-link">
+          <img src="./images/4.png" alt="" width="200px">
+        </a>
+        <p class="org-desc" data-i18n="ij_desc">El portal de empleo líder en España, comprometido con un mercado laboral más justo e inclusivo.</p>
+      </div>
+      <div class="org-sep">×</div>
+      <div class="org-card">
+        <a href="https://www.femcodersclub.com" target="_blank" rel="noopener" class="org-link org-name-link">
+          <a href="https://www.infojobs.net" target="_blank" rel="noopener" class="org-link">
+            <img src="./images/3.png" alt="" width="150px">
+          </a>
+        </a>
+        <p class="org-desc" data-i18n="fc_desc">Comunidad de mujeres en tecnología que impulsa referentes, networking y oportunidades reales en el sector tech.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- REGISTER -->
+<section id="registro" class="register-section">
+  <div class="blob-bottom"></div>
+  <div class="container container--relative">
+    <p class="section-label reveal section-label--center" data-i18n="rg_label">Inscripción</p>
+    <h2 class="section-title section-title--center reveal" data-i18n="rg_title_wrap"><span data-i18n="rg_title">Reserva tu </span><em data-i18n="rg_em">plaza gratis</em></h2>
+    <p class="section-desc section-desc--center reveal" data-i18n="rg_desc">El aforo es limitado. ¡Asegura tu sitio y ven a vivir la experiencia!</p>
+    <div class="reg-btn-wrap reveal">
+      <a href="https://www.eventbrite.com" target="_blank" rel="noopener" class="reg-btn" data-i18n="rg_btn">Registrarme en el evento</a>
+    </div>
+    <p class="reg-note" data-i18n="rg_note">Evento gratuito · Aforo limitado · C/ Ciutat de Granada, 150 · Sant Martí · Barcelona</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-left">
+    <strong data-i18n="ft_date">Barcelona, 6 de Marzo de 2026</strong><br/>
+    <span data-i18n="ft_ev">Día Internacional de la Mujer · Estructuras en movimiento</span>
+  </div>
+  <div class="footer-right">
+    <a href="https://www.infojobs.net" target="_blank" rel="noopener" class="footer-org-link" data-i18n="ft_ij">InfoJobs</a>
+    <span class="footer-sep">×</span>
+    <a href="https://www.femcodersclub.com" target="_blank" rel="noopener" class="footer-org-link" data-i18n="ft_fc">FemCoders Club</a>
+  </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
