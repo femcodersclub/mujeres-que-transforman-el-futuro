@@ -371,6 +371,20 @@
       text-transform: uppercase;
     }
 
+    .hero-tag2 {
+      font-family: var(--font-heading);
+      font-size: clamp(1.5rem, 3vw, 3rem);
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: .01em;
+      position: relative;
+      z-index: 1;
+      animation: fadeUp .9s ease .1s both;
+      color: var(--color-text-dark);
+      will-change: transform;
+      text-transform: uppercase;
+    }
+
     .line-gradient {
       background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
       -webkit-background-clip: text;
@@ -804,8 +818,8 @@
       }
     }
 
-    /* ---- SCHEDULE ---- */
-    .schedule-timeline {
+   /* ---- SCHEDULE ---- */
+.schedule-timeline {
   position: relative;
   margin-top: 3.5rem;
 }
@@ -813,12 +827,12 @@
 .schedule-timeline::before {
   content: "";
   position: absolute;
-  left: 2rem;                    
-  top: 2rem;                     
-  bottom: 1rem;
+  left: 2rem;
+  top: 0;
+  bottom: 0;
   width: 2px;
   background: linear-gradient(to bottom, var(--color-secondary), var(--color-primary), transparent);
-  transform: translateX(-50%);   
+  transform: translateX(-50%);
   z-index: 0;
 }
 
@@ -827,8 +841,9 @@
   grid-template-columns: 4rem 1fr;
   gap: 1.5rem;
   margin-bottom: 1.8rem;
-  align-items: start;
+  align-items: center;
   position: relative;
+  z-index: 1;
 }
 
 .sched-time {
@@ -838,7 +853,7 @@
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
-  background: var(--sched-bg);
+  background: var(--bg);
   border: 2px solid var(--color-secondary);
   font-family: var(--font-heading);
   font-size: .8rem;
@@ -846,21 +861,22 @@
   color: var(--color-secondary);
   flex-shrink: 0;
   position: relative;
-  z-index: 1;                    
+  z-index: 2;
   box-sizing: border-box;
 }
 
     /* ---- ORGS ---- */
     .orgs-grid {
-      display: grid;
-      grid-template-columns: 1fr auto 1fr;
-      align-items: center;
-      gap: 3rem;
-      margin-top: 3rem;
-      max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
     .org-card {
       display: flex;
@@ -896,6 +912,16 @@
       letter-spacing: .04em;
     }
 
+    .org-name-text1 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.1;
+  text-align: center;
+  color: #1A45D4;
+  transition: opacity .2s;
+  letter-spacing: .04em;
+}
     .org-name-link:hover .org-name-text {
       opacity: .7;
     }
