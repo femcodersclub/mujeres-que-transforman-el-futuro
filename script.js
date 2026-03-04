@@ -32,7 +32,7 @@ const translations = {
     ab_title: "Transformar estructuras, ",
     ab_em: "juntas",
     ij_desc:
-      "El portal de empleo líder en España, comprometido con un mercado laboral más justo e inclusivo.",
+      "En el último año, InfoJobs ha publicado 2,4 millones de posiciones vacantes. Gracias a InfoJobs se firma un nuevo contrato de trabajo cada 22 segundos",
     fc_desc:
       "Comunidad de mujeres en tecnología que impulsa referentes, networking y oportunidades reales en el sector tech.",
     ft_ij: "InfoJobs",
@@ -106,7 +106,7 @@ const translations = {
     ab_title: "Transformar estructures, ",
     ab_em: "juntes",
     ij_desc:
-      "El portal de feina líder a Espanya, compromès amb un mercat laboral més just i inclusiu.",
+      "L’últim any, InfoJobs ha publicat 2,4 milions de llocs vacants. Gràcies a InfoJobs, s’ha signat un nou contracte laboral cada 22 segons",
     fc_desc:
       "Comunitat de dones en tecnologia que impulsa referents, networking i oportunitats reals en el sector tech.",
     ft_ij: "InfoJobs",
@@ -181,7 +181,7 @@ const translations = {
     ab_title: "Transforming structures, ",
     ab_em: "together",
     ij_desc:
-      "Spain's leading job portal, committed to a fairer and more inclusive labor market.",
+      "In the last year, InfoJobs has published 2.4 million vacant positions. Thanks to InfoJobs, a new employment contract is signed every 22 seconds",
     fc_desc:
       "A community of women in tech that empowers role models, networking and real opportunities in the sector.",
     ft_ij: "InfoJobs",
