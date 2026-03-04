@@ -806,75 +806,49 @@
 
     /* ---- SCHEDULE ---- */
     .schedule-timeline {
-      position: relative;
-      margin-top: 3.5rem;
-    }
+  position: relative;
+  margin-top: 3.5rem;
+}
 
-    .schedule-timeline::before {
-      content: "";
-      position: absolute;
-      left: 2rem;
-      top: 0;
-      bottom: 0;
-      width: 2px;
-      background: linear-gradient(to bottom, var(--color-secondary), var(--color-primary), transparent);
-    }
+.schedule-timeline::before {
+  content: "";
+  position: absolute;
+  left: 2rem;                    
+  top: 2rem;                     
+  bottom: 1rem;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--color-secondary), var(--color-primary), transparent);
+  transform: translateX(-50%);   
+  z-index: 0;
+}
 
-    .sched-item {
-      display: grid;
-      grid-template-columns: 4rem 1fr;
-      gap: 1.5rem;
-      margin-bottom: 1.8rem;
-      align-items: start;
-    }
+.sched-item {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.8rem;
+  align-items: start;
+  position: relative;
+}
 
-    .sched-time {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 4rem;
-      height: 4rem;
-      border-radius: 50%;
-      background: var(--sched-bg);
-      border: 2px solid var(--color-secondary);
-      font-family: var(--font-heading);
-      font-size: .8rem;
-      font-weight: 700;
-      color: var(--color-secondary);
-      flex-shrink: 0;
-      position: relative;
-      z-index: 1;
-    }
-
-    .sched-content {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-left: 3px solid var(--color-accent);
-      border-radius: .5rem;
-      padding: 1.2rem 1.5rem;
-      margin-top: .6rem;
-      transition: border-color .3s, transform .3s;
-    }
-
-    .sched-content:hover {
-      border-color: var(--color-primary);
-      transform: translateX(4px);
-    }
-
-    .sched-content h4 {
-      font-family: var(--font-heading);
-      font-size: 1rem;
-      font-weight: 700;
-      margin-bottom: .3rem;
-      color: var(--color-text-dark);
-      text-transform: uppercase;
-      letter-spacing: .02em;
-    }
-
-    .sched-content p {
-      font-size: .85rem;
-      color: var(--text-muted);
-    }
+.sched-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: var(--sched-bg);
+  border: 2px solid var(--color-secondary);
+  font-family: var(--font-heading);
+  font-size: .8rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;                    
+  box-sizing: border-box;
+}
 
     /* ---- ORGS ---- */
     .orgs-grid {
