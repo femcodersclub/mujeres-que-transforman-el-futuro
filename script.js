@@ -6,7 +6,7 @@ const translations = {
     nav_register: "Registrarse",
     hero_badge: "8 de Marzo · Día Internacional de la Mujer",
     hero_t1: "Estructuras en",
-    hero_t2: "movimiento",
+    hero_t2: "movimiento:",
     hero_sub: "Una tarde de inspiración, comunidad y conversaciones que importan.",
     meta_date_label: "Fecha",
     meta_date: "Jueves 26 de Marzo, 2026",
@@ -17,7 +17,7 @@ const translations = {
     sp_em: "inspiran",
     sp_desc: "Cuatro mujeres referentes que comparten sus experiencias, aprendizajes y visión de un futuro más equitativo.",
     irene_role: "Senior Product Manager",
-    irene_bio: "De Traducción Jurada a lanzar la marca de Atrápalo en varios países, hasta Product Manager internacional en fintech, insurtech y SaaS. Hoy, en InfoJobs, combate activamente los sesgos de género en las ofertas de empleo para que el talento no tenga etiquetas.",
+    irene_bio: "Desde sus inicios en Traducción Jurada y el lanzamiento de la marca Atrápalo en varios países, hasta su paso como Product Manager internacional en sectores como fintech, insurtech y SaaS. Hoy, en InfoJobs, combate activamente los sesgos de género en las ofertas de empleo para que el talento no tenga etiquetas.",
     marta_role: "Coordinadora de proyectos, espacios y relaciones",
     marta_bio: "Cerró su startup en 2022 tras 10 años, 25 inversores, 19 países y casi 3M de usuarios. Tardó en reencontrar su ikigai pero su ADN era claro: mujer, madre, emprendedora y líder apasionada por transformar ideas en proyectos con propósito e impacto social.",
     sheila_role: "Estratega de IA aplicada al negocio",
@@ -27,7 +27,7 @@ const translations = {
     ab_label: "¿Por qué este evento?",
     ab_title: "Transformar estructuras, ",
     ab_em: "juntas",
-    ij_desc: "En el último año, InfoJobs ha publicado 2,4 millones de posiciones vacantes. Gracias a InfoJobs se firma un nuevo contrato de trabajo cada 22 segundos",
+    ij_desc: "En el último año, InfoJobs ha publicado 2,4 millones de posiciones vacantes. Gracias a InfoJobs se firma un nuevo contrato de trabajo cada 22 segundos.",
     fc_desc: "Comunidad de mujeres en tecnología que impulsa referentes, networking y oportunidades reales en el sector tech.",
     ft_ij: "InfoJobs",
     ft_fc: "FemCoders Club",
@@ -46,18 +46,12 @@ const translations = {
     s1p: "Registro, networking informal y un café antes de empezar.",
     s2h: "Introducción · FemCoders Club & InfoJobs",
     s2p: "Contexto del evento y presentación de las organizadoras.",
-    s3h: "Charla · Irene Amo",
+    s3h: "Charlas",
     s3p: "Producto, diversidad y el reto de eliminar sesgos en el mercado laboral digital.",
-    s4h: "Charla · Marta Gimeno",
-    s4p: "10 años, 3M de usuarios, un cierre y una nueva identidad: el camino hacia el ikigai.",
-    s5h: "Charla · Sheila Guirado",
-    s5p: "IA aplicada al negocio: conectar tecnología, datos y personas para generar impacto real.",
-    s6h: "Charla · Carolina Romero",
-    s6p: "Tecnología cívica y participación ciudadana: el camino de Decidim.",
-    s7h: "Mesa redonda y preguntas",
-    s7p: "Debate abierto con todas las ponentes. Tú también tienes voz.",
-    s8h: "Networking & cierre",
-    s8p: "La conversación continúa. Ven con tus tarjetas.",
+    s6h: "Preguntas",
+    s6p: "Debate abierto para que le preguntes a las ponentes. Tú también tienes voz.",
+    s7h: "Networking & cierre",
+    s7p: "La conversación continúa. Ven con tus tarjetas.",
     pt_label: "Organizan",
     rg_label: "Inscripción",
     rg_title: "Reserva tu ",
@@ -75,7 +69,7 @@ const translations = {
     nav_register: "Registrar-se",
     hero_badge: "8 de Març · Dia Internacional de la Dona",
     hero_t1: "Estructures en",
-    hero_t2: "moviment",
+    hero_t2: "moviment:",
     hero_sub: "Una tarda d'inspiració, comunitat i converses que importen.",
     meta_date_label: "Data",
     meta_date: "Dijous 26 de Març, 2026",
@@ -96,7 +90,7 @@ const translations = {
     ab_label: "Per què aquest esdeveniment?",
     ab_title: "Transformar estructures, ",
     ab_em: "juntes",
-    ij_desc: "L'últim any, InfoJobs ha publicat 2,4 milions de llocs vacants. Gràcies a InfoJobs, s'ha signat un nou contracte laboral cada 22 segons",
+    ij_desc: "L'últim any, InfoJobs ha publicat 2,4 milions de llocs vacants. Gràcies a InfoJobs, s'ha signat un nou contracte laboral cada 22 segons.",
     fc_desc: "Comunitat de dones en tecnologia que impulsa referents, networking i oportunitats reals en el sector tech.",
     ft_ij: "InfoJobs",
     ft_fc: "FemCoders Club",
@@ -115,18 +109,12 @@ const translations = {
     s1p: "Registre, networking informal i un cafè abans de començar.",
     s2h: "Introducció · FemCoders Club & InfoJobs",
     s2p: "Context de l'esdeveniment i presentació de les organitzadores.",
-    s3h: "Xerrada · Irene Amo",
+    s3h: "Xerrades",
     s3p: "Producte, diversitat i el repte d'eliminar biaixos en el mercat laboral digital.",
-    s4h: "Xerrada · Marta Gimeno",
-    s4p: "10 anys, 3M d'usuaris, un tancament i una nova identitat: el camí cap a l'ikigai.",
-    s5h: "Xerrada · Sheila Guirado",
-    s5p: "IA aplicada al negoci: connectar tecnologia, dades i persones per generar impacte real.",
-    s6h: "Xerrada · Carolina Romero",
-    s6p: "Tecnologia cívica i participació ciutadana: el camí de Decidim.",
-    s7h: "Taula rodona i preguntes",
-    s7p: "Debat obert amb totes les ponents. Tu també tens veu.",
-    s8h: "Networking & tancament",
-    s8p: "La conversa continua. Vine amb les teves targetes.",
+    s6h: "Preguntes",
+    s6p: "Debat obert perquè preguntis a les ponents. Tu també tens veu.",
+    s7h: "Networking & tancament",
+    s7p: "La conversa continua. Vine amb les teves targetes.",
     pt_label: "Organitzen",
     rg_label: "Inscripció",
     rg_title: "Reserva la teva ",
@@ -144,7 +132,7 @@ const translations = {
     nav_register: "Register",
     hero_badge: "March 8 · International Women's Day",
     hero_t1: "Structures in",
-    hero_t2: "motion",
+    hero_t2: "motion:",
     hero_sub: "An afternoon of inspiration, community and conversations that matter.",
     meta_date_label: "Date",
     meta_date: "Thursday, March 26, 2026",
@@ -165,7 +153,7 @@ const translations = {
     ab_label: "Why this event?",
     ab_title: "Transforming structures, ",
     ab_em: "together",
-    ij_desc: "In the last year, InfoJobs has published 2.4 million vacant positions. Thanks to InfoJobs, a new employment contract is signed every 22 seconds",
+    ij_desc: "In the last year, InfoJobs has published 2.4 million vacant positions. Thanks to InfoJobs, a new employment contract is signed every 22 seconds.",
     fc_desc: "A community of women in tech that empowers role models, networking and real opportunities in the sector.",
     ft_ij: "InfoJobs",
     ft_fc: "FemCoders Club",
@@ -184,18 +172,12 @@ const translations = {
     s1p: "Check-in, informal networking and a coffee before we start.",
     s2h: "Intro · FemCoders Club & InfoJobs",
     s2p: "Event context and introduction by the organizers.",
-    s3h: "Talk · Irene Amo",
+    s3h: "Talks",
     s3p: "Product, diversity and the challenge of eliminating bias in the digital job market.",
-    s4h: "Talk · Marta Gimeno",
-    s4p: "10 years, 3M users, a closure and a new identity: the path to ikigai.",
-    s5h: "Talk · Sheila Guirado",
-    s5p: "Applied AI: connecting technology, data and people to generate real impact.",
-    s6h: "Talk · Carolina Romero",
-    s6p: "Civic technology and citizen participation: the Decidim journey.",
-    s7h: "Panel discussion & Q&A",
-    s7p: "Open debate with all speakers. Your voice matters too.",
-    s8h: "Networking & closing",
-    s8p: "The conversation continues. Bring your cards.",
+    s6h: "Q&A",
+    s6p: "Open debate — ask the speakers anything. Your voice matters too.",
+    s7h: "Networking & closing",
+    s7p: "The conversation continues. Bring your cards.",
     pt_label: "Organized by",
     rg_label: "Registration",
     rg_title: "Reserve your ",
@@ -208,14 +190,10 @@ const translations = {
   },
 };
 
-let currentLang = "es";
 function setLang(lang) {
-  currentLang = lang;
-  document
-    .querySelectorAll(".lang-btn")
-    .forEach((b) =>
-      b.classList.toggle("active", b.textContent === lang.toUpperCase()),
-    );
+  document.querySelectorAll(".lang-btn").forEach((b) =>
+    b.classList.toggle("active", b.textContent.trim() === lang.toUpperCase())
+  );
   document.documentElement.lang = lang;
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const v = translations[lang][el.getAttribute("data-i18n")];
@@ -234,110 +212,44 @@ function toggleTheme() {
   document.getElementById("themeBtn").textContent = dark ? "🌙" : "☀️";
 }
 
-// A11Y
-// A11Y WIDGET
-(function () {
-  var tog = document.getElementById("a11y-toggle");
-  var pan = document.getElementById("a11y-panel");
-  var bod = document.body;
-
-  tog.addEventListener("click", function (e) {
-    e.stopPropagation();
-    var isOpen = !pan.hidden;
-    pan.hidden = isOpen;
-    tog.setAttribute("aria-expanded", String(!isOpen));
-  });
-
-  document.addEventListener("click", function (e) {
-    if (!document.getElementById("a11y-widget").contains(e.target)) {
-      pan.hidden = true;
-      tog.setAttribute("aria-expanded", "false");
-    }
-  });
-
-  var fontClasses = ["a11y-font-sm", "", "a11y-font-lg", "a11y-font-xl"];
-  var currentLevel = 1;
-
-  window.a11yFontSize = function (level) {
-    fontClasses.forEach(function (c) { if (c) bod.classList.remove(c); });
-    currentLevel = level;
-    if (fontClasses[level]) bod.classList.add(fontClasses[level]);
-    document.querySelectorAll(".a11y-row .a11y-btn").forEach(function (btn, i) {
-      btn.classList.toggle("a11y-btn--active", i === level);
-    });
-  };
-
-  window.a11yContrast = function (mode) {
-    if (mode === "high") bod.classList.add("a11y-high-contrast");
-    else bod.classList.remove("a11y-high-contrast");
-  };
-
-  var map = { dyslexia:"a11y-dyslexia", motion:"a11y-no-motion", links:"a11y-links", cursor:"a11y-cursor" };
-  window.a11yToggle = function (feature, on) { bod.classList.toggle(map[feature], on); };
-
-  window.a11yReset = function () {
-    ["a11y-font-sm","a11y-font-lg","a11y-font-xl","a11y-high-contrast",
-     "a11y-dyslexia","a11y-no-motion","a11y-links","a11y-cursor"].forEach(function (c) {
-      bod.classList.remove(c);
-    });
-    ["chk-dyslexia","chk-motion","chk-links","chk-cursor"].forEach(function (id) {
-      var el = document.getElementById(id); if (el) el.checked = false;
-    });
-    currentLevel = 1;
-    document.querySelectorAll(".a11y-row .a11y-btn").forEach(function (btn, i) {
-      btn.classList.toggle("a11y-btn--active", i === 1);
-    });
-  };
-})();
-
 // Parallax + Reveal
 (function () {
-  var els = [],
-    ticking = false,
-    sy = 0;
+  var els = [], ticking = false, sy = 0;
+
   function collect() {
     document.querySelectorAll("[data-parallax]").forEach(function (el) {
       els.push({ el: el, speed: parseFloat(el.dataset.parallax) || 0.1 });
     });
   }
+
   function update() {
     els.forEach(function (o) {
       o.el.style.transform = "translateY(" + sy * o.speed + "px)";
     });
     ticking = false;
   }
-  window.addEventListener(
-    "scroll",
-    function () {
-      sy = window.scrollY;
-      if (!ticking) {
-        requestAnimationFrame(update);
-        ticking = true;
-      }
-    },
-    { passive: true },
-  );
+
+  window.addEventListener("scroll", function () {
+    sy = window.scrollY;
+    if (!ticking) { requestAnimationFrame(update); ticking = true; }
+  }, { passive: true });
+
   var nav = document.getElementById("mainNav");
-  window.addEventListener(
-    "scroll",
-    function () {
-      if (nav)
-        nav.style.boxShadow =
-          window.scrollY > 20 ? "0 2px 24px rgba(71,55,187,0.12)" : "none";
-    },
-    { passive: true },
-  );
-  var obs = new IntersectionObserver(
-    function (entries) {
-      entries.forEach(function (e) {
-        if (e.isIntersecting) {
-          e.target.classList.add("visible");
-          obs.unobserve(e.target);
-        }
-      });
-    },
-    { threshold: 0.1, rootMargin: "0px 0px -40px 0px" },
-  );
+  window.addEventListener("scroll", function () {
+    if (nav)
+      nav.style.boxShadow =
+        window.scrollY > 20 ? "0 2px 24px rgba(71,55,187,0.12)" : "none";
+  }, { passive: true });
+
+  var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) {
+        e.target.classList.add("visible");
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: "0px 0px -40px 0px" });
+
   document.addEventListener("DOMContentLoaded", function () {
     collect();
     sy = window.scrollY;
