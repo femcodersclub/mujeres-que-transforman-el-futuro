@@ -15,7 +15,7 @@ const translations = {
     sp_label: "Ponentes",
     sp_title: "Las voces que ",
     sp_em: "inspiran",
-    sp_desc: "Cuatro mujeres referentes que comparten sus experiencias, aprendizajes y visión de un futuro más equitativo.",
+    sp_desc: "Cinco mujeres referentes que comparten sus experiencias, aprendizajes y visión de un futuro más equitativo.",
     irene_role: "Senior Product Manager",
     irene_bio: "Desde sus inicios en Traducción Jurada y el lanzamiento de la marca Atrápalo en varios países, hasta su paso como Product Manager internacional en sectores como fintech, insurtech y SaaS. Hoy, en InfoJobs, combate activamente los sesgos de género en las ofertas de empleo para que el talento no tenga etiquetas.",
     marta_role: "Emprendedora, advisor de proyectos sociales, tecnohumanistas y feministas.",
@@ -24,11 +24,14 @@ const translations = {
     sheila_bio: "Del laboratorio a la tecnología: 15 años aplicando IA, datos y CRM en entornos corporativos, conectando equipos de IT y negocio. Hoy impulsa innovación práctica y acompaña a equipos a mejorar procesos con impacto medible.",
     carolina_role: "Directora de Producto",
     carolina_bio: "Inició su trayectoria en telecomunicaciones y trabajó como técnica en transformación digital en el Consorci Localret, coordinando proyectos TIC para municipios con énfasis en participación ciudadana digital. Cofundadora de Decidim y actualmente su directora de producto.",
+    ester_role: "Manager en Technology Consulting en EY",
+    ester_bio: "Ester Esquerdo es una profesional comprometida con impulsar proyectos de alto impacto en EY España. Con amplia experiencia en transformación digital y gestión de iniciativas complejas, destaca por conectar equipos, dar estructura y convertir ideas en resultados. Reconocida como Gold GivEYR por su implicación social y liderazgo con propósito, representa un talento que une tecnología, personas e impacto real.",
     ab_label: "¿Por qué este evento?",
     ab_title: "Transformar estructuras, ",
     ab_em: "juntas",
     ij_desc: "En el último año, InfoJobs ha publicado 2,4 millones de posiciones vacantes. Gracias a InfoJobs se firma un nuevo contrato de trabajo cada 22 segundos.",
     fc_desc: "Comunidad de mujeres en tecnología que impulsa referentes, networking y oportunidades reales en el sector tech.",
+    ey_desc: "Firma global de servicios profesionales comprometida con construir un mundo mejor a través de la transformación digital, la sostenibilidad y el liderazgo con propósito.",
     ft_ij: "InfoJobs",
     ft_fc: "FemCoders Club",
     p1h: "Conocimiento real",
@@ -78,7 +81,7 @@ const translations = {
     sp_label: "Ponents",
     sp_title: "Les veus que ",
     sp_em: "inspiren",
-    sp_desc: "Quatre dones referents que comparteixen les seves experiències, aprenentatges i visió d'un futur més equitatiu.",
+    sp_desc: "Cinc dones referents que comparteixen les seves experiències, aprenentatges i visió d'un futur més equitatiu.",
     irene_role: "Senior Product Manager",
     irene_bio: "Des dels seus inicis en Traducció Jurada i el llançament de la marca Atrápalo a diversos països, fins al seu pas com a Product Manager internacional en sectors com fintech, insurtech i SaaS. Avui, a InfoJobs, combat activament els biaixos de gènere en les ofertes de feina perquè el talent no tingui etiquetes.",
     marta_role: "Emprenedor, assessor de projectes socials, tecnohumanitaris i feministes.",
@@ -87,11 +90,14 @@ const translations = {
     sheila_bio: "Del laboratori a la tecnologia: 15 anys aplicant IA, dades i CRM en entorns corporatius, connectant equips d'IT i negoci. Avui impulsa innovació pràctica i acompanya equips a millorar processos amb impacte mesurable.",
     carolina_role: "Directora de Producte",
     carolina_bio: "Va iniciar la seva trajectòria en telecomunicacions i va treballar com a tècnica en transformació digital al Consorci Localret, coordinant projectes TIC per a municipis amb èmfasi en participació ciutadana digital. Cofundadora de Decidim i actualment la seva directora de producte.",
+    ester_role: "Manager en Technology Consulting a EY",
+    ester_bio: "L'Ester Esquerdo és una professional compromesa amb impulsar projectes d'alt impacte a EY Espanya. Amb àmplia experiència en transformació digital i gestió d'iniciatives complexes, destaca per connectar equips, donar estructura i convertir idees en resultats. Reconeguda com a Gold GivEYR per la seva implicació social i lideratge amb propòsit, representa un talent que uneix tecnologia, persones i impacte real.",
     ab_label: "Per què aquest esdeveniment?",
     ab_title: "Transformar estructures, ",
     ab_em: "juntes",
     ij_desc: "L'últim any, InfoJobs ha publicat 2,4 milions de llocs vacants. Gràcies a InfoJobs, s'ha signat un nou contracte laboral cada 22 segons.",
     fc_desc: "Comunitat de dones en tecnologia que impulsa referents, networking i oportunitats reals en el sector tech.",
+    ey_desc: "Firma global de serveis professionals compromesa amb construir un món millor a través de la transformació digital, la sostenibilitat i el lideratge amb propòsit.",
     ft_ij: "InfoJobs",
     ft_fc: "FemCoders Club",
     p1h: "Coneixement real",
@@ -141,7 +147,7 @@ const translations = {
     sp_label: "Speakers",
     sp_title: "The voices that ",
     sp_em: "inspire",
-    sp_desc: "Four leading women sharing their experiences, learnings and vision of a more equitable future.",
+    sp_desc: "Five leading women sharing their experiences, learnings and vision of a more equitable future.",
     irene_role: "Senior Product Manager",
     irene_bio: "From her beginnings in sworn translation and the launch of the Atrápalo brand in several countries, to her time as an international Product Manager in sectors such as fintech, insurtech, and SaaS. Today, at InfoJobs, she actively combats gender bias in job postings so that talent is not labeled.",
     marta_role: "Entrepreneur, advisor of social, technohumanist and feminist projects.",
@@ -150,11 +156,14 @@ const translations = {
     sheila_bio: "From the lab to technology: 15 years applying AI, data and CRM in corporate environments, bridging IT and business teams. Today she drives practical innovation and helps teams improve processes with measurable impact.",
     carolina_role: "Product Director",
     carolina_bio: "Started her career in telecommunications, then worked as a digital transformation specialist at Consorci Localret, coordinating ICT projects for municipalities with a focus on digital citizen participation platforms. Co-founder of Decidim and currently its Product Director.",
+    ester_role: "Manager in Technology Consulting at EY",
+    ester_bio: "Ester Esquerdo is a professional committed to driving high-impact projects at EY Spain. With broad experience in digital transformation and complex initiative management, she stands out for connecting teams, providing structure and turning ideas into results. Recognised as Gold GivEYR for her social involvement and purposeful leadership, she represents a talent that unites technology, people and real impact.",
     ab_label: "Why this event?",
     ab_title: "Transforming structures, ",
     ab_em: "together",
     ij_desc: "In the last year, InfoJobs has published 2.4 million vacant positions. Thanks to InfoJobs, a new employment contract is signed every 22 seconds.",
     fc_desc: "A community of women in tech that empowers role models, networking and real opportunities in the sector.",
+    ey_desc: "A global professional services firm committed to building a better working world through digital transformation, sustainability and purposeful leadership.",
     ft_ij: "InfoJobs",
     ft_fc: "FemCoders Club",
     p1h: "Real knowledge",
@@ -257,5 +266,95 @@ function toggleTheme() {
     document.querySelectorAll(".reveal,.reveal-stagger").forEach(function (el) {
       obs.observe(el);
     });
+  });
+})();
+
+// Speaker card rotation — elegant fade & slide
+(function () {
+  var INTERVAL  = 8000;   // calm pause between rotations
+  var FADE_OUT  = 550;    // departing card fades out
+  var SLIDE     = 950;    // remaining cards glide to new spots
+  var FADE_IN   = 700;    // arriving card appears in new home
+  var STAGGER   = 60;     // ms delay between each sliding card
+  var EASE      = "cubic-bezier(0.4, 0, 0.2, 1)";
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var grid = document.querySelector(".speakers-grid");
+    if (!grid) return;
+
+    // Respect user's motion preference
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    var busy    = false;
+    var paused  = false;
+
+    grid.addEventListener("mouseenter", function () { paused = true; });
+    grid.addEventListener("mouseleave", function () { paused = false; });
+
+    function rotate() {
+      if (busy || paused) return;
+      busy = true;
+
+      var cards    = Array.from(grid.querySelectorAll(".speaker-card"));
+      var leaving  = cards[0];
+      var staying  = cards.slice(1);
+
+      // 1 — departing card fades & shrinks out
+      leaving.style.transition = "opacity " + FADE_OUT + "ms ease, transform " + FADE_OUT + "ms ease";
+      leaving.style.opacity    = "0";
+      leaving.style.transform  = "scale(0.94)";
+
+      setTimeout(function () {
+
+        // Snapshot positions of the cards that stay
+        var before = staying.map(function (c) { return c.getBoundingClientRect(); });
+
+        // Move leaving card to end of DOM (invisible — no visual jump)
+        leaving.style.transition = "none";
+        grid.appendChild(leaving);
+
+        // Snapshot their NEW positions after grid reflow
+        var after = staying.map(function (c) { return c.getBoundingClientRect(); });
+
+        // INVERT — put staying cards back where they were (instantly)
+        staying.forEach(function (card, i) {
+          var dx = before[i].left - after[i].left;
+          var dy = before[i].top  - after[i].top;
+          card.style.transition = "none";
+          card.style.transform  = "translate(" + dx + "px, " + dy + "px)";
+        });
+
+        // Force reflow
+        grid.offsetHeight;
+
+        // PLAY — glide each staying card to its new position, staggered
+        staying.forEach(function (card, i) {
+          card.style.transition = "transform " + SLIDE + "ms " + EASE + " " + (i * STAGGER) + "ms";
+          card.style.transform  = "";
+        });
+
+        // Fade arriving card back in once the grid has settled
+        var arrivalDelay = SLIDE * 0.45;
+        setTimeout(function () {
+          leaving.style.transition = "opacity " + FADE_IN + "ms ease, transform " + FADE_IN + "ms ease";
+          leaving.style.opacity    = "1";
+          leaving.style.transform  = "";
+        }, arrivalDelay);
+
+        // Cleanup
+        var totalTime = SLIDE + (staying.length * STAGGER) + FADE_IN + 80;
+        setTimeout(function () {
+          grid.querySelectorAll(".speaker-card").forEach(function (c) {
+            c.style.transition = "";
+            c.style.transform  = "";
+            c.style.opacity    = "";
+          });
+          busy = false;
+        }, totalTime);
+
+      }, FADE_OUT);
+    }
+
+    setInterval(rotate, INTERVAL);
   });
 })();
